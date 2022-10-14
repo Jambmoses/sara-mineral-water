@@ -1,0 +1,383 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(131, 131, 131);
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.charles-rapping{
+    display: block;
+    background: url('../imgs/sergiu-baica-WTlIXF9khbE-unsplash.jpg') no-repeat center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.charles-rapping nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+
+
+.shopping-cart-ico{
+display: inline-block;
+ margin-left: 10px;
+ cursor: pointer;   
+}
+
+.contact-btn{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 13px;
+    color: rgb(131, 131, 131);
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
+.nav-logo{
+    text-transform: uppercase;
+    margin-right: 50px;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 13px;
+    color: rgb(131, 131, 131);
+    margin: 5px 15px;
+    transition: 0.3s linear;
+}
+
+.active-link{
+    color: rgb(135, 230, 253);
+    transition: 0.3s linear;
+}
+
+
+.sara-water-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sara-water-details-left{
+    width: 350px;
+    margin-left: 5%;
+    margin-top: 15vh;
+}
+
+.sara-water-details-left-heading{
+    display: block;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+
+.sara-water-details-left-information{
+    display: block;
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.sara-water-details-left-button{
+    outline: transparent;
+    border: 1px solid white;
+    text-transform: capitalize;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: monospace;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+
+.sara-water-details-left-button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid transparent;
+    transition: 0.3s linear;
+}
+
+.sara-water-details-right{
+ display: flex;
+ flex-direction: column;
+ width: 200px;
+ margin-right: 5%;
+ margin-top: 15vh;
+}
+
+.sara-water-details-right-note{
+    display: block;
+    border-bottom: 1px solid rgba(192, 192, 192, 0.103);
+    padding: 20px 0px;
+}
+
+.sara-water-details-right-note-heading{
+    display: block;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 5px;
+    font-family: monospace;
+    color: skyblue;
+}
+
+.sara-water-details-right-note-information{
+    display: block;
+    padding-right: 1;
+    font-family: monospace;
+    color: inherit;
+}
+
+.sara-jude{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sara-jude-split{
+    background-color: rgba(255, 68, 0, 0.5);
+    width: 400px;
+    padding: 30px;
+    border-radius: 0px;
+    font-family: monospace;
+    margin-top: 12vh;
+    color: wheat;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+
+.jude-section{
+    display: block;
+    background: url('../imgs/nikhil-aa3Js2ymB3k-unsplash.jpg') no-repeat center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 100px;
+    padding-left: 10%;
+}
+
+.jude-section-heading{
+    font-family: monospace;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.897);
+    width: 400px;
+    padding: 50px;
+}
+
+.jude-section-heading span{
+    display: block;
+}
+
+.star-top{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 300px;
+    color: olivedrab;
+    font-size: 100px;
+}
+
+
+.water-delivery{
+    background: url("../imgs/akira-hojo-ZxGdri2EWzk-unsplash.jpg") no-repeat center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 350px;
+}
+
+.water-delivery2{
+    background-color: rgba(0, 0, 0, 0.795);
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.water-delivery2 h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.water-delivery2 p{
+    width: 500px;
+    text-align: center;
+    font-size: 13px;
+    font-family: monospace;
+    line-height: 20px;
+}
+
+.water-delivery2 button{
+    outline: transparent;
+    border: 1px solid white;
+    color:  white;
+    margin-top: 30px;
+    margin-left: -20px;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: transparent;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
+.water-delivery2 button:hover{
+    color: rgb(131, 131, 131);
+    border: 1px solid rgb(131, 131, 131);
+    background-color: black;
+    transition: 0.3s linear;
+}
+
+.newsletters{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.newsletters-note{
+    background-color: transparent;
+    width: 300px;
+    padding: 0px 10%;
+    padding-top: 30px;
+}
+
+.newsletters-note h3{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.newsletters-subscribers{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: transparent;
+    width: 50%;
+}
+
+.newsletters-subscribers form{
+    width: 100%;
+}
+
+.newsletters-subscribers form input{
+    outline: transparent;
+    background-color: transparent;
+    color: inherit;
+    border: 1px solid grey;
+    width: 50%;
+    height: 30px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    padding-left: 20px;
+}
+
+.newsletters-subscribers form button{
+    outline: transparent;
+    background-color: rgb(100, 100, 100);
+    border: 0px solid transparent;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.footer-shortcut{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 30px 5%;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+
+.footer-shortcut-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    background-color: transparent;
+    width: 400px;
+}
+
+.footer-shortcut-item-title{
+    display: block;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px 0px;
+}
+
+.footer-shortcut-item-subtitle{
+    display: block;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px 0px;
+}
+
+.footer-shortcut-item-link{
+    display: block;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    text-align: left;
+    margin: 10px 0px;
+}
+
+.footer-bottom-copyright{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-family: sans-serif;
+}

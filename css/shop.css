@@ -1,0 +1,199 @@
+.jamb-wrapper{
+    display: block;
+    background: url("../imgs/carlos-francis-fernandez-x8ttqxtR-FM-unsplash.jpg") no-repeat center;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 700px;
+    width: 100vw;
+}
+
+.jamb-wrapper nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+
+.active-link{
+    color: rgb(135, 230, 253);
+    transition: 0.3s linear;
+}
+
+.product-details{
+    /* background-color: rgba(37, 37, 37, 0.575); */
+    background: -webkit-linear-gradient(left, black,rgba(0, 0, 0, 0.205));
+    width: 350px;
+    margin-left: 5%;
+    margin-top: 10vh;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.product-details-heading{
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    letter-spacing: 10px;
+}
+
+.product-details-heading-water{
+    font-family: monospace;
+    letter-spacing: 10px;
+}
+
+.product-details-rating{
+    margin-bottom: 10px;
+}
+
+.product-details-rating-star{
+    color: orange;
+}
+
+.product-details-rating span{
+    text-transform: lowercase;
+    font-family: monospace;
+}
+
+.product-details-note{
+    display: block;
+    margin-bottom: 20px;
+    padding-right: 50px;
+    word-spacing: 6px;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: inherit;
+}
+
+.product-details-order-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.product-details-order-title span{
+    display: block;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.product-details-order-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.product-details-order-items-colors{
+    display: block;
+}
+
+.out-color{
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.in-color{
+    display: inline-block;
+    background-color: lightgray;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-top: 2.6px;
+    margin-right: .6px;
+}
+
+.product-details-order-items-quantity{
+    display: block;
+    margin-top: 10px;
+}
+
+.product-details-order-items-quantity-btn{
+    background-color: aliceblue;
+    padding: 2px 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.product-details-order-items-quantity-count{
+    font-family: sans-serif;
+    color: white;
+}
+
+
+.product-details-order-size{
+    margin: 20px 0px;
+}
+
+.product-details-order-size-title{
+    font-family: monospace;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.product-details-order-size-containers{
+    display: inline-block;
+}
+
+.product-details-order-size-container-box{
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 1px solid grey;
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0px 1px;
+}
+
+.product-details-order-size-containers .active{
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 1px solid silver;
+    color: white;
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.product-details-order-pricing{
+    margin: 20px 0px;
+    margin-top: 30px;
+}
+
+.product-details-order-pricing-price{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-right: 20px;
+}
+
+.product-details-order-pricing-addcart{
+    background-color: white;
+    padding: 5px 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 5px;
+    color: rgb(63, 63, 63);
+}
